@@ -1,0 +1,23 @@
+.booking{
+    display: flex;
+}
+
+.offer-details{
+    width: 50%;
+}
+
+.confirm-form{
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.confirm-form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.confirm-form form input{
+    width: 150%; 
+   margin-bottom: 15px;
+}
