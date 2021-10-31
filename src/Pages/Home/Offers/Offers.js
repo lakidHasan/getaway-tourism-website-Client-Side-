@@ -5,7 +5,7 @@ import "./Offers.css";
 const Offers = () => {
     const [offers, setOffers]= useState([]);
     useEffect( ()=> 
-    fetch('http://localhost:5000/offers')
+    fetch('https://creepy-vault-56324.herokuapp.com/offers')
     .then(res => res.json())
     .then (data => setOffers(data))
     ,[]);

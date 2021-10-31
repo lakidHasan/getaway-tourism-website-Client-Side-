@@ -9,7 +9,7 @@ const Booking = () => {
      
     const[offer, setOffer] = useState({});
     useEffect( ()=>{
-       fetch(`http://localhost:5000/offers/${offerId}`)
+       fetch(`https://creepy-vault-56324.herokuapp.com/offers/${offerId}`)
        .then(res => res.json())
        .then(data => setOffer(data));
     }, [])

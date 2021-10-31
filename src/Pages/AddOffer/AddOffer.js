@@ -8,7 +8,7 @@ const AddOffer = () => {
     const { register, handleSubmit, reset } = useForm();
     const onSubmit = data => {
         console.log(data);
-        axios.post('http://localhost:5000/offers', data)
+        axios.post('https://creepy-vault-56324.herokuapp.com/offers', data)
         .then(res=>{
             if(res.data.insertedId){
                 alert('Done successfully');
