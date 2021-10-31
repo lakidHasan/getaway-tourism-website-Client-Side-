@@ -1,0 +1,6 @@
+.review-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    background-color: rgb(224, 219, 219);
+}

@@ -1,0 +1,10 @@
+.comment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.comment img{
+    margin-top: 10px;
+    height: 200px;
+    width: 200px;
+}

@@ -22,6 +22,7 @@ const Booking = () => {
            <div className="offer-details">
            <img src={offer.img} alt="" />
             <p>Details: {offer.discription}</p>
+            <button className="btn btn-primary mb-3">Confirm Booking</button>
            </div>
            <div className="confirm-form">
                <h2>Pick Up Your Destination</h2>
@@ -34,7 +35,7 @@ const Booking = () => {
             <input placeholder="City" defaultValue="" {...register("city")} />
             <input placeholder="phone number" defaultValue="" {...register("phone")} />
 
-            <input type="submit" />
+            <input className="btn btn-primary" type="submit" />
              </form>
            </div>
         </div>

@@ -10,6 +10,8 @@ import Footer from './Pages/Shared/Footer/Footer';
 import AuthProvider from './contexts/AuthProvider';
 import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
 import AddOffer from './Pages/AddOffer/AddOffer';
+import ManageOffer from './Pages/ManageOffer/ManageOffer';
+
 
 function App() {
   return (
@@ -30,7 +32,10 @@ function App() {
          <PrivateRoute path="/booking/:offerId">
             <Booking></Booking>
          </PrivateRoute>
-         <Route Path='/addoffer'>
+         <Route path="/manageOffer">
+           <ManageOffer></ManageOffer>
+         </Route>
+         <Route  Path="/addoffer">
             <AddOffer></AddOffer>
          </Route>
          <Route path="*">

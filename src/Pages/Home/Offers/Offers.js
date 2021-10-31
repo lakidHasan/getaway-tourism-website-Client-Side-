@@ -15,7 +15,7 @@ const Offers = () => {
             <div className="offer-container">
             {
               offers.map(offer => <Offer
-              key={offer.id}
+              key={offer._id}
               offer={offer}
               ></Offer>)   
             }
